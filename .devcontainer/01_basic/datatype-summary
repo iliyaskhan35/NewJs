@@ -1,0 +1,55 @@
+//Primitive Data type 
+// String; 
+// Number;
+// Boolean;
+// null;
+// undefined;
+// Symbol;
+// BigInt;
+
+// const score = 100
+
+ const scoreValue = 10.3
+
+// const isLoggedIn = false
+
+ const outsidetemp = null
+
+// let userEmail;
+
+// const id = Symbol('123')
+
+// const anotherid = Symbol('123')
+
+//console.log(id === anotherid)
+
+//const bigNumber = 343434343434343434n // big int
+
+
+
+
+// Reference type Non-primitive
+
+//Array;
+//Object;   // browser event and object mater 
+//Function;
+
+const heros = ["Mango", "apple", "orange"] // array
+
+let myobj = {
+    name: "iliyas",
+    age: 32,
+}
+
+const myFunction = function(){
+   // console.log("Hello world");
+}
+
+console.log(typeof bigNumber) // undefine
+
+console.log(typeof outsidetemp) // object
+
+console.log(typeof scoreValue) // number
+
+console.log(typeof myFunction) // function object
+
