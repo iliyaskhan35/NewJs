@@ -53,10 +53,24 @@ const user = [
 ]
 user[1].email
 
-console.log(tinderuser)
+// console.log(tinderuser)
 
-console.log(Object.keys(tinderuser)) /// Important
-console.log(Object.values(tinderuser)) /// Important
-console.log(Object.entries(tinderuser)) 
+// console.log(Object.keys(tinderuser)) /// Important
+// console.log(Object.values(tinderuser)) /// Important
+// console.log(Object.entries(tinderuser)) 
 
-console.log(tinderuser.hasOwnProperty('isloggedin'));
+// console.log(tinderuser.hasOwnProperty('isloggedin'));
+
+               //Destructuring of obejct
+ const destructuring={
+    coursename:"English",
+    price:"999",
+    courseinstractor:"hindi"
+ }
+ //course.courseinstractor    
+ 
+const {courseinstractor: ins} = destructuring
+const { price} = destructuring
+console.log(ins)
+console.log(price)
+
