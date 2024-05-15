@@ -58,6 +58,7 @@ user[1].email
 // console.log(Object.keys(tinderuser)) /// Important
 // console.log(Object.values(tinderuser)) /// Important
 // console.log(Object.entries(tinderuser)) 
+//console.log(Object.length>=1)
 
 // console.log(tinderuser.hasOwnProperty('isloggedin'));
 
@@ -69,6 +70,7 @@ user[1].email
  }
  //course.courseinstractor    
  
+//const {courseinstractor} = destructuring
 const {courseinstractor: ins} = destructuring
 const { price} = destructuring
 console.log(ins)
